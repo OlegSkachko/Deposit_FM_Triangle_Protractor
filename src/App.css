@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  overflow: hidden;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.App__text {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #2F2F2F;
+  margin: 10px 0px 30px;
+}
+
+.App__main {
+  display: flex;
+  margin-top: 6.16%;
+  width: 81.25%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #369CB7;
+}
+
+.App__btn {
+width: 200px;
+height: 40px;
+background: #369CB7;
+border-radius: 5px;
+color: white;
+}
+
+
+

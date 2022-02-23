@@ -1,0 +1,37 @@
+.triangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:350px;
+    height:250px;
+    margin: 20px;
+}
+
+.triangle__text {
+    position: relative;
+    width: 23px;
+    height: 37px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #2F2F2F;
+}
+
+.a { 
+    left: 36px;
+    top: 121px;
+}
+
+.b { 
+    left: 154px;
+    top: -142px;
+}
+
+.c { 
+    left: 276px;
+    top: 125px;
+}
+

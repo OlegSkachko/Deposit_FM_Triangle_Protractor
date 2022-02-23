@@ -1,0 +1,29 @@
+.angle {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.angle__item {
+    display: flex; 
+    margin-left: 20px;  
+}
+
+img {
+    display: flex;
+    margin-top: 20px;  
+    align-self: center;
+}
+
+input {
+    margin-left: 10px;
+    width: 91px;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+input:hover {
+    border: 1px solid #369CB7;
+}
